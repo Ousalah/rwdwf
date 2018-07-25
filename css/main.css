@@ -1,0 +1,81 @@
+/* Start Global Rules */
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+/* End Global Rules */
+
+
+
+
+/* Start Header */
+.header {
+	background: url(../images/header.jpg) no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	min-height: 500px;
+	position: relative;
+}
+
+.header .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	background-color: rgba(0, 168, 255, .5);
+}
+
+.header .overlay h1 {
+	font-size: 60px;
+	margin-top: 100px;
+}
+
+.header .overlay .plan {
+	border: 2px solid #fff;
+	font-size: 24px;
+	width: 50%;
+	float: left;
+	padding: 20px;
+}
+
+@media (min-width: 767px) {
+	.header .overlay .plan {
+		float: none;
+		margin: 0 auto 20px;
+		font-size: 22px;
+	}	
+}
+/* End Header */
+
+
+
+@media (max-width: 767px) { /* Mobile & Tablet Rules */
+	
+}
+
+@media (min-width: 768px) { /* Small Screen Rules */
+	
+}
+
+@media (min-width: 992px) { /* Medium Screen Rules */
+	
+}
+
+@media (min-width: 1200px) { /* Large Screen Rules */
+	
+}
+
+
+
+/* Start My Framework */
+.text-center {
+	text-align: center;
+}
+
+/* End My Framework */
