@@ -61,6 +61,9 @@
 }
 
 @media (max-width: 767px) {
+	.header .overlay h1 {
+		margin-top: 40px;
+	}
 	.header .overlay .plan {
 		float: none;
 		margin: 0 auto 20px;
@@ -75,15 +78,20 @@
 	.visible-xs {
 		display: block !important;
 	}
+	.hidden-xs {
+		display: none !important;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) { /* Small Screen Rules */
 	.container {
 		width: 750px;
 	}
-
 	.visible-sm {
 		display: block !important;
+	}
+	.hidden-sm {
+		display: none !important;
 	}
 }
 
@@ -91,9 +99,11 @@
 	.container {
 		width: 970px;
 	}
-
 	.visible-md {
 		display: block !important;
+	}
+	.hidden-md {
+		display: none !important;
 	}
 }
 
@@ -101,9 +111,11 @@
 	.container {
 		width: 1170px;
 	}
-
 	.visible-lg {
 		display: block !important;
+	}
+	.hidden-lg {
+		display: none !important;
 	}
 }
 
