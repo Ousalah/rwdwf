@@ -88,8 +88,8 @@ body {
 }
 
 .features .feat {
-	width: 33.3333%;
 	padding: 0 20px 0 0;
+	margin-bottom: 30px;
 }
 
 .features .feat h2 {
@@ -98,6 +98,22 @@ body {
 
 .features .feat p {
 	line-height: 1.6;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.features .feat:first-of-type {
+		width: 100%;
+	}
+
+	.features .feat:not(:first-of-type) {
+		width: 50%;
+	}
+}
+
+@media (min-width: 992px) {
+	.features .feat {
+		width: 33.3333%;
+	}
 }
 /* End Features */
 
