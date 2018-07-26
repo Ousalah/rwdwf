@@ -3,12 +3,11 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
 }
 
 body {
 	font-family: 'Droid Sans', sans-serif;
+	height: 3000px;
 }
 /* End Global Rules */
 
@@ -98,6 +97,7 @@ body {
 
 .features .feat p {
 	line-height: 1.6;
+	margin: 0;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -118,6 +118,19 @@ body {
 /* End Features */
 
 
+/* Start About Us */
+.about-us {
+	background-color: #ececec;
+	padding: 30px 0;
+	color: #848484
+}
+
+.about-us .h1 {
+	font-size: 50px;
+}
+/* End About Us */
+
+
 
 @media (max-width: 767px) { /* Mobile & Tablet Rules */
 	.visible-xs {
@@ -126,6 +139,11 @@ body {
 
 	.hidden-xs {
 		display: none !important;
+	}
+
+	.responsive-paragraph {
+		text-align: center;
+		font-size: 20px !important;
 	}
 }
 
@@ -209,5 +227,10 @@ body {
 
 .h2 {
 	font-size: 1.5em;
+}
+
+.responsive-paragraph {
+	line-height: 1.8;
+	font-size: 22px;
 }
 /* End My Framework */
