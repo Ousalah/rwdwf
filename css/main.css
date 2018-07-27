@@ -252,6 +252,11 @@ body {
 	border-radius: 10px;
 }
 
+.testimonials .preson-say .avatar {
+	width: 120px;
+	margin-right: 20px;
+}
+
 .testimonials .preson-say h3 {
 	margin: 0 0 10px;
 }
@@ -259,6 +264,7 @@ body {
 .testimonials .preson-say p {
 	margin: 0;
 	line-height: 1.7;
+	width: calc(100% - 140px);
 }
 
 @media (min-width: 768px) {
