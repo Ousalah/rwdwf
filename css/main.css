@@ -267,6 +267,23 @@ body {
 	width: calc(100% - 140px);
 }
 
+@media (max-width: 767px) {
+	.testimonials .preson-say .avatar {
+		float: none;
+		margin: auto;
+	}
+
+	.testimonials .preson-say h3 {
+		float: none;
+		text-align: center;
+	}
+
+	.testimonials .preson-say p {
+		float: none;
+		width: 100%;
+	}
+}
+
 @media (min-width: 768px) {
 	.testimonials .preson-say:first-of-type {
 		width: 100%;
@@ -276,8 +293,25 @@ body {
 		width: 49%;
 	}
 
-	.testimonials .preson-say:nth-of-type(3) {
+	.testimonials .preson-say:last-of-type {
 		margin-left: 2%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.testimonials .preson-say:not(:first-of-type) .avatar {
+		float: none;
+		margin: auto;
+	}
+
+	.testimonials .preson-say:not(:first-of-type) h3 {
+		float: none;
+		text-align: center;
+	}
+
+	.testimonials .preson-say:not(:first-of-type) p {
+		float: none;
+		width: 100%;
 	}
 }
 
@@ -401,5 +435,15 @@ body {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.img-thumbnail {
+	padding: 3px;
+	background-color: #fff;
+	border: 1px solid #ccc;
 }
 /* End My Framework */
