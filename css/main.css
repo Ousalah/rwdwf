@@ -130,6 +130,7 @@ body {
 }
 /* End About Us */
 
+
 /* Start Our Works */
 @media (max-width: 767px) {
 	.our-works .image {
@@ -155,6 +156,7 @@ body {
 	}
 }
 /* End Our Works */
+
 
 /* Start Our Pricing Table */
 .pricing-table {
@@ -232,6 +234,7 @@ body {
 	}
 }
 /* End Our Princing Table */
+
 
 /* Start Testimonials */
 .testimonials {
@@ -322,6 +325,47 @@ body {
 	}
 }
 /* End Testimonials */
+
+
+/* Start Information */
+.information {
+	background-color: #ececec;
+	padding: 30px 0;
+	font-size: 18px;
+	color: #848484;
+}
+
+.information .h1 {
+	font-size: 50px;
+}
+
+.information .info-list li{
+	display: inline-block;
+	background-color: #ddd;
+	padding: 15px;
+	font-size: 22px;
+	cursor: pointer;
+}
+
+.information .info-list li.selected {
+	background-color: #fff;
+	color: #22a9bd;
+}
+
+.information .info-content {
+	margin-bottom: 30px;
+}
+
+.information .info-content > div {
+	padding: 15px;
+	background-color: #fff;
+	line-height: 1.7;
+}
+
+.information .info-content > div:not(:first-of-type) {
+	display: none;
+}
+/* End Information */
 
 
 
