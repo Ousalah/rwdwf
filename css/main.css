@@ -233,6 +233,34 @@ body {
 }
 /* End Our Princing Table */
 
+/* Start Testimonials */
+.testimonials {
+	padding: 50px 0;
+}
+
+.testimonials .h1 {
+	font-size: 50px;
+	margin: 0 0 20px;
+	color: #555;
+}
+
+.testimonials .preson-say {
+	background-color: #eee;
+	padding: 20px;
+	margin: 0 0 20px;
+	border: 1px solid #ddd;
+}
+
+.testimonials .preson-say:first-of-type {
+	width: 50%;
+	margin-left: 25%;
+}
+
+.testimonials .preson-say:not(:first-of-type) {
+	width: 50%;
+}
+/* End Testimonials */
+
 
 
 @media (max-width: 767px) { /* Mobile & Tablet Rules */
