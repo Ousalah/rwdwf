@@ -169,9 +169,9 @@ body {
 }
 
 .pricing-table .pricing-plan {
-	width: 33.33333%;
 	border: 3px solid #fff;
 	padding: 20px 0;
+	position: relative;
 }
 
 .pricing-table .pricing-plan h3 {
@@ -189,6 +189,47 @@ body {
 .pricing-table .pricing-plan ul {
 	line-height: 2;
 	font-size: 18px;
+}
+
+@media (max-width: 767px) {
+	.pricing-table .pricing-plan {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.pricing-table .pricing-plan.ultimate-pricing-plan {
+		margin-bottom: 0;
+	}
+}
+
+@media (min-width: 768px) {
+	.pricing-table .pricing-plan {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.pricing-table .pricing-plan.ultimate-pricing-plan {
+		margin-bottom: 0;
+	}
+}
+
+@media (min-width: 992px) {
+	.pricing-table .pricing-plan {
+		width: 32.66666%;
+		margin-bottom: 0;
+	}
+
+	.pricing-table .pricing-plan.plus-pricing-plan {
+		left: 33.66666%;
+	}
+
+	.pricing-table .pricing-plan.premium-pricing-plan {
+		right: 33.66666%;
+	}
+
+	.pricing-table .pricing-plan:not(.ultimate-pricing-plan) {
+		margin-right: 1%;
+	}
 }
 /* End Our Princing Table */
 
