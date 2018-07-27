@@ -365,6 +365,12 @@ body {
 .information .info-content > div:not(:first-of-type) {
 	display: none;
 }
+
+@media (max-width: 767px) {
+	.information .info-list li {
+		display: block;
+	}
+}
 /* End Information */
 
 
